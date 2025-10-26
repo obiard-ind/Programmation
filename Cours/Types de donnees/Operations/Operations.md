@@ -74,7 +74,7 @@ Les opérateurs sont listés par ordre de priorité décroissante !
 | `and`                                                            | 'et' logique                                       |
 | `or`                                                             | 'ou' logique                                       |
 
-## Opérations 'logiques'
+# Opérateurs 'logiques'
 - **Opérateurs** : `and`, `or`, `not`
 - **Type des opérandes** : expression booléenne.
 - **Type du résultat** : booléen.
@@ -126,8 +126,9 @@ Le résultat de l'évaluation de l'expression est :
 | `*`       | Multiplication   |                                           | a * 2      |
 | `**`      | Puissance        | élève la valeur de `a` à la puissance `b` | a ** b     |
 | `/`       | Division         |                                           | a / 2      |
-| `//`      | Division entière | Résultat de la division entière           | 17 % 3 =5  |
+| `//`      | Division entière | Résultat de la division entière           | 17 // 3 =5 |
 | `%`       | Modulo           | Reste de la division entière              | 17 % 3 = 2 |
+|           |                  |                                           |            |
 ## La division euclidienne 
 #def #bonus La 'division euclidienne' : est l'opération mathématique qui permet décomposer un entier (le dividende), en un quotient et un reste en utilisant un autre entier non nul (le diviseur), selon la relation : *a = b \* q +r,  avec 0 <= r < b*
 
