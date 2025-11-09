@@ -126,13 +126,13 @@ Le résultat de l'évaluation de l'expression est :
 | `*`       | Multiplication   |                                           | a * 2      |
 | `**`      | Puissance        | élève la valeur de `a` à la puissance `b` | a ** b     |
 | `/`       | Division         |                                           | a / 2      |
-| `//`      | Division entière | Résultat de la division entière           | 17 // 3 =5 |
+| `//`      | Division entière | Quotient de la division entière           | 17 // 3 =5 |
 | `%`       | Modulo           | Reste de la division entière              | 17 % 3 = 2 |
 |           |                  |                                           |            |
 ## La division euclidienne 
 #def #bonus La 'division euclidienne' : est l'opération mathématique qui permet décomposer un entier (le dividende), en un quotient et un reste en utilisant un autre entier non nul (le diviseur), selon la relation : *a = b \* q +r,  avec 0 <= r < b*
 
-![[DivisionEuclidienne.jpg]]
+![[4TT/Programmation/attachments/DivisionEuclidienne.jpg]]
 ### Explication sur la division entière :  **//**
 Le résultat de la division entière correspond au **quotient** de la division euclidienne.
 Exemple : le <span style="color:red; font-weight:bold">9</span> dans l'exemple ci-dessus.
