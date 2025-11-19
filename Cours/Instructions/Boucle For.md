@@ -1,7 +1,7 @@
 # Usages courants
 Les boucles `for` sont souvent utilisées pour :
 - Parcourir des séquences d'élements (str, list, tuple,...)
-- Exécuter un bloc de code un nombre déterminé de fois... à l'aide de `range()`
+- Exécuter un bloc de code un **nombre déterminé de fois**... à l'aide de range()
 # Fonctionnement
 - la boucle `for` **itère** (çàd : parcourt) une séquence d'éléments, tour à tour, en suivant leur ordre dans la séquence à laquelle ils appartiennent.
 - lors de chaque **itération** (ou tour de boucle) l'instruction `for` :

@@ -10,7 +10,7 @@ Les éléments sont les valeurs individuelles qui constituent la liste.  Ils peu
 - **Types différents autorisés** : les listes en python peuvent contenir des éléments de types différents (Rem : ce n'est pas le cas dans tous les langages). 
 - **Mutable** : on peut ajouter, modifier, et supprimer les éléments d'une liste.
 
-## Comment créer une liste ?
+## Déclaration / Comment créer une liste ?
 Pour créer une liste, on utilisera les délimiteurs 'crochets' : **`[]`**
 Les éléments de la liste seront séparés par des virgules : **`,`**
 

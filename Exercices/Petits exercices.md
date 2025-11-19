@@ -28,7 +28,6 @@ Quand l'utilisateur entrera le chiffre correspondant à un entrée du menu; cell
 Reprenez l'exercice précédent; et ajoutez une nouvelle entrée dans le menu
 `0. Quittez cette application`
 Désormais, le menu devra être proposé à l'utilisateur tant que l'utilisateur n'aura pas tapé `0`.
-
 ##### Ex3.2 : Idem, mais avec une nouvelle chaîne
 Reprenez l'exercice précédent; mais cette fois ajoutez une nouvelle entrée de menu proposant de changer la chaîne de caractère à tester.
 `4. Changer de chaîne de caractères`
