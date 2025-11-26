@@ -32,8 +32,7 @@ Désormais, le menu devra être proposé à l'utilisateur tant que l'utilisateur
 Reprenez l'exercice précédent; mais cette fois ajoutez une nouvelle entrée de menu proposant de changer la chaîne de caractère à tester.
 `4. Changer de chaîne de caractères`
 
-#### Ex4. Manipulation de listes
-(... à continuer)
+
 
 
 

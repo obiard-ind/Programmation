@@ -1,17 +1,21 @@
 # Exercices pour commencer
 ## Ex1  : Le contrôle technique
 Créez, à l'aide d'un dictionnaire, une petite base de données d'une dizaine de véhicules indiquant si ceux-ci sont en ordre ou nom de contrôle technique.  Les clés, qui doivent être uniques, seront représentées par les plaques d'immatriculation des véhicules.
-**Rem** : utilisez des plaques d'immatriculation valides selon la DIV (Direction de l'Immatriculation des Véhicules).
+**Rem** : les plaque devront répondre au format N-XXX-YYY (où N peut être : {1,2,M}, X est un lettre, Y est un chiffre).
+Vous parcourerez ensuite le dictionnaire et afficherez, chaque fois sur une ligne différente si le véhicule considéré est en ordre de contrôle technique ou non.
 ## Ex2 : Le contrôle technique (étendu)
-Pour chaque véhicule de l'exemple précédent; l'on souhaiterait ajouter
-- sa marque,
-- la date de son dernier passage au contrôle,
-- la date prévue pour sa prochaine révision.
-- le résultat du contrôle; à savoir :
-	- 'Rouge' : le véhicule ne peut plus rouler
-	- 'Jaune' : il y a des points à surveiller.
-	- 'Vert' : tout va bien.
+Pour chaque véhicule identifié par sa plaque dans l'exemple précédent; l'on souhaiterait disposer des information suivantes :
+- "marque" : sa marque,
+- "dernier_controle" : la date de son dernier passage au contrôle,
+- "prochain_controle" :la date prévue pour sa prochaine révision.
+- "resultat_contrôle" : le résultat du contrôle; à savoir :
+	- 'rouge' : le véhicule ne peut plus rouler
+	- 'jaune' : il y a des points à surveiller.
+	- 'vert' : tout va bien.
 **Tip** : vous pouvez utiliser des dictionnaires imbriqués (à savoir : un dictionnaire, dans un dictionnaire)
+
+Affichez ensuite ces informations en colonnes; où la première colonne sera la plaque, la seconde, la marque, etc... et où chaque ligne correspondra à un véhicule.
+Les colonnes auront une taille fixe de 20 caractères.
 
 ## Ex3 : Un mini-cabanga !
 Chaque élève est identifé par un numéro d'élève constitué de son année d'inscription à l'école, ainsi que par un nombre unique pour l'année considérée, et constitué de 4 chiffres.
