@@ -32,6 +32,23 @@ Désormais, le menu devra être proposé à l'utilisateur tant que l'utilisateur
 Reprenez l'exercice précédent; mais cette fois ajoutez une nouvelle entrée de menu proposant de changer la chaîne de caractère à tester.
 `4. Changer de chaîne de caractères`
 
+#### Ex4 : Mots binaires
+Affichez tous les mots binaires d'une longueur donnée ! Et donnez-en le nombre.
+Demandez à l'utilisateur d'introduire une longueur comprise entre 1 et 16.
+Affichez tous les mots binaires possibles pour cette longueur; à raison d'un mot par ligne.   Devant chaque mot, affichez un numéro qui indique son numéro d'ordre.
+A la fin, indiquez le nombre de mots ainsi généré.
+
+##### EX5 : Un dictionnaire d'emoji
+En vous basant sur la liste des emoji suivante : https://unicode.org/emoji/charts/full-emoji-list.html, vous allez créer un dictionnaire de vos emoji préférés.
+Votre programme vous demandera d'introduire les données relatives aux emoji jusqu'à ce que vous lui disiez que vous souhaitez arrêter.
+La clé utilisée sera le code hexadecimal associé à l'émoji.
+La valeur sera le nom CLDR.
+
+###### Ex4.1 : Afficher vos emoji
+Poursuivez en affichant, vos emoji en liste sous forme d'une liste
+Cette liste aura pour en-tête de colonne les noms suivants : `[Code hex, emoji, nom CLDR]`
+
+
 
 
 
