@@ -1,28 +1,39 @@
-L'obectif ici est de vous initiez à la création de fonctions personnalisées; et de les utiliser pour réaliser certains calculs / opérations.
+L'obectif ici est double :
+- vous initier à la création de fonctions personnalisées
+- apprendre à les utiliser ensuite pour réaliser certains calculs / opérations.
 Pour chacune de ces fonctions; testez-les en les appelant avec des arguments de valeurs différentes.
 # Exercices pour commencer
-- Créez une fonction qui prend 2 nombres en paramètre et renvoie leur produit
+- Créez une fonction qui prend 2 nombres en paramètres et renvoie leur produit
 - Créez une fonction qui calcule si un nombre est multiple d'un autre
-- Créez une fonction qui calcule la force (en Newton) en fonction de la masse (en Kilo) et d'une accélération (en m/s^2 ).  En physique, la formule qui relie ces grandeurs s'écrit : $$F = m.a$$
-- Créez une fonction qui retourne l'aire d'un cercle en fonction de son rayon.  La formule pour calculer l'air est : $$A = \pi.r^2$$
+- Créez une fonction qui calcule la force (en Newton) en fonction de la masse (en kilo) et d'une accélération (en $m/s^2$  ).  En physique, la formule qui relie ces grandeurs s'écrit : $$F = m.a$$
+- Créez une fonction qui retourne l'aire d'un cercle en fonction de son rayon.  La formule pour calculer l'aire est : $$A = \pi.r^2$$
 - Créez une fonction qui retourne le volume d'une sphère en fonction de son rayon.  La formule de calcul du volume d'une sphère : $$V = \frac{4}{3} * pi * r^3$$
 - Créez une fonction qui demande son âge à l'utiliser et renvoie `True` s'il est majeur; et `False` sinon.
 
 # Exercices pour s'entraîner
-- Créez une fonction qui prend une liste de phrases en paramètre; et affiche un menu qui affichera, pour chaque phrase de la liste : une ligne qui commence par un nombre correspondant à l'index de la phrase dans la liste; suivi d'un '.';  et de la phrase.
+- Créez une fonction qui prend une liste de phrases en paramètre; et affiche un menu.
+  Celui-ci affichera, pour chaque phrase de la liste : une ligne qui commence par un nombre correspondant à l'index de la phrase dans la liste; suivi d'un '.';  et, pour finir, de la phrase.
+  ```Exemple de résultat
+  0. Quitter le menu
+  1. Ajouter un élément
+  2. Supprimer un élément
+  3. Modifier un élément
+  ```
 - Créez une fonction qui vérifiera si un mot de passe est valide selon certaines conditions.
-- 
+  Vérifiez que sa longueur est comprise entre 8 et 16 caractères.
+- Créez une fonction qui vérifiera si un mot de passe est valide selon certaines conditions.  Cette fois, les critères seront passées sous forme d'arguments aux paramètres suivants :
+	- Le 1er paramètre : le mot de passe à tester
+	- Le 2ème paramètre : la longueur minimum que doit avoir le mot de passe
+	- Le 3ème paramètre : la longueur maximum que doit avoir le mot de passe
 # Exercices pour se dépasser
 - Créez une fonction qui retournera une liste des nombres premiers compris entre 1 et le nombre qui sera passé comme argument.
   Rappel : un nombre premier est un nombre qui n'est divisible que par 1 et par lui-même.
-- Créez une fonction qui vérifiera si un mot de passe est valide selon certaines conditions.  Le mot de passe à tester; et les critères auxquels il doit répondre seront passés comme arguments aux paramètres suivants :
-	- Le 1er paramètre : le mot de passe à tester
-	- Le 2ème paramètre : la longueur minimum que doit avoir le mot de passe
-	- Le 3ème paramètre : la longeur maximum que doit avoir le mot de passe
-- Une extension de la fonction précédente pourrait être de fournir des paramètres additionnels qui indiqueront combien de caractères minuscules, majuscules, chiffres doivent figurer dans le mot de passe.
+- Une extension de la fonction de la validation de mot de passe proposée dans la section précédente pourrait être de fournir des paramètres additionnels qui indiqueront combien de caractères minuscules, majuscules, chiffres doivent figurer dans le mot de passe.
 
 # Exercices pour s'amuser (encore plus)
-- Vous êtes un brillant physicien, et l'on vous demande de calculer la force de gravité qui s'exerce entre 2 corps massifs en fonction de leur distance.  La formule est la suivante : $$F_g = G*\frac{m_1*m_2}{r^2}$$Il s'agit de la  **loi de gravitation universelle de Newton**.
+- Vous êtes un brillant physicien, et l'on vous demande de calculer la force de gravité qui s'exerce entre 2 corps massifs en fonction de leur distance.  
+  La formule est la suivante : $$F_g = G*\frac{m_1*m_2}{r^2}$$
+- Il s'agit de la  **loi de gravitation universelle de Newton**.
 	- Pour G (la constante gravitationnelle), utilisez comme valeur un nombre en virgule flottante (type `float`).  Dans votre fonction; utilisez la constante suivante 
 	  `G = 6.67430e-11     # m^3 kg^-1 s^-2`
 	- Votre fonction prendra donc 3 paramètres :
