@@ -1,7 +1,7 @@
 # Exercices pour commencer
 ## Ex1  : Le contrôle technique
 Créez, à l'aide d'un dictionnaire, une petite base de données d'une dizaine de véhicules indiquant si ceux-ci sont en ordre ou nom de contrôle technique.  Les clés, qui doivent être uniques, seront représentées par les plaques d'immatriculation des véhicules.
-**Rem** : les plaque devront répondre au format N-XXX-YYY (où N peut être : {1,2,M}, X est un lettre, Y est un chiffre).
+**Rem** : les plaques devront répondre au format N-XXX-YYY (où N peut être : {1,2,M}, X est un lettre, Y est un chiffre).
 Vous parcourerez ensuite le dictionnaire et afficherez, chaque fois sur une ligne différente si le véhicule considéré est en ordre de contrôle technique ou non.
 ## Ex2 : Le contrôle technique (étendu)
 Pour chaque véhicule identifié par sa plaque dans l'exemple précédent; l'on souhaiterait disposer des information suivantes :
@@ -29,10 +29,34 @@ Celui-ci proposera le menu suivant à l'éxécution.  On sélectionnera l'entré
 ```
 0. Quitter le programme
 1. Ajouter un nouvel élève
-2. Afficher la liste des élèves
+2. Afficher la liste de tous les élèves
 3. Afficher un élève par son numéro d'inscription
 4. Afficher les élèves par classe.
+5. Modifier l'année dans laquelle un élève est inscrit
 ```
 
 On affichera les données correspondant à un élève sur une même ligne; à raison d'un élève par ligne s'il y en a plusieurs à afficher.
+
+Pour modifier la classe dans laquelle un élève est inscrit; on sélectionnera l'élève par son numéro d'identification.
+
+# Ex4 : Gestion de bibliothèques
+
+Vous allez créer un petit programme de gestion de stock de livres d'une bibliothèque.
+
+La bibliothèque possédera les caractéristiques suivantes : un nom, le nom du responsable, une adresse.  Elle disposera en outre d'un catalogue de livres à disposition de ses lecteurs.
+
+Chaque livre sera identifié par son numéro ISBN; et sa fiche proposera les informations suivantes : auteurs (il peut y en avoir plusieurs), éditeur, date de publication; disponible (qui indiquera si le livre est de stock ou non).
+
+Pour vous permettre de gérer votre bibliothèque, vous vous aiderez du menu suivant :
+```
+0. Quitter le programme
+1. Modifier les caractéristiques de la bibliothèque
+2. Ajouter une nouvelle référence au catalogue
+3. Afficher les références du catalogue et leur disponibilité.
+4. Supprimer une référence du catalogue
+5. Modifier le statut de disponibilité d'un livre.
+```
+
+
+
 
