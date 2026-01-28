@@ -1,4 +1,32 @@
+# Objectif de ces exercices
+L'objectif de ces exercices est de manipuler le type [[Dict|dictionnaire]] au travers divers cas d'usage.
+Les compétences à acquérir sont :  de savoir créer un dictionnaire, ajouter des éléments dans celui-ci, en supprimer; en parcourir les éléments; accéder aux clés et aux valeurs associées à ces dernières.
 # Exercices pour commencer
+
+## Ex0 : Un petit dictionnaire français <=> anglais
+Imaginons que vous souhaitiez créer un petit programme informatique vous permettant de réviser votre vocabulaire en anglais.  Pourquoi ne pas utiliser vos connaissances en Python; et en particulier le type dictionnaire pour vous aider dans cette tâche ?
+
+Créez un petit menu qui s'affichera au démarrage de votre programme; et s'affichera tant que vous n'aurez pas choisi de le quitter.  Essayez de créer le code qui répondra à chacune des entrées affichées, lorsque l'utilisateur les sélectionnera par leur numéro.
+
+```
+0. Quitter le programme
+1. Ajouter un nouveau mot et sa traduction
+2. Afficher la liste de tous les mots (de la langue source)
+3. Afficher la liste de tous les mots et leur traduction
+4. Recherchez un mot et affichez sa traduction
+5. Modifier la traduction associée à un mot
+6. Supprimer un mot et sa traduction
+```
+
+**Rem :** Les listes de mots seront affichées en colonnes; et s'il y a plusieurs colonnes; vous veillerez à ce que leur contenu soit bien aligné; comme dans l'exemple suivant :
+```
+     Français     |     Anglais     
+------------------------------------
+porte             | door
+soleil            | sun
+```
+
+**Rem**: si le mot demandé (options `4, 5, 6`) n'existe pas; votre programme ne doit pas 'planter'.  Vous afficherez un message pour prévenir l'utilisateur que le mot demandé n'existe pas dans votre dictionnaire.
 ## Ex1  : Le contrôle technique
 Créez, à l'aide d'un dictionnaire, une petite base de données d'une dizaine de véhicules indiquant si ceux-ci sont en ordre ou nom de contrôle technique.  Les clés, qui doivent être uniques, seront représentées par les plaques d'immatriculation des véhicules.
 **Rem** : les plaques devront répondre au format N-XXX-YYY (où N peut être : {1,2,M}, X est un lettre, Y est un chiffre).
@@ -17,8 +45,9 @@ Pour chaque véhicule identifié par sa plaque dans l'exemple précédent; l'on 
 Affichez ensuite ces informations en colonnes; où la première colonne sera la plaque, la seconde, la marque, etc... et où chaque ligne correspondra à un véhicule.
 Les colonnes auront une taille fixe de 20 caractères.
 
+# Exercices pour s'entraîner
 ## Ex3 : Un mini-cabanga !
-Chaque élève est identifé par un numéro d'élève constitué de son année d'inscription à l'école, ainsi que par un nombre unique pour l'année considérée, et constitué de 4 chiffres.
+Chaque élève est identifié par un numéro d'élève constitué de son année d'inscription à l'école, ainsi que par un nombre unique pour l'année considérée, et constitué de 4 chiffres.
 Exemple : 20200079, 20201051, 20210079, 20230851,...
 Chaque élève possède une fiche qui reprend son nom, son prénom, sa date de naissance et l'année dans laquelle il est inscrit (eg. 4TT, 5TT, 5TQC,...)
 
