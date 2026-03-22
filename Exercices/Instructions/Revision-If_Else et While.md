@@ -33,7 +33,7 @@ Un polygône qui possède 3 côtés, est un triangle.
 - Il est rectangle s'il possède 3 côtés ou trois angles égaux.
 Un polygône qui possède 4 côtés est un quadrilatère.
 - Il peut s'agir d'un carré, d'un rectangle, d'un losange, d'un parallélogramme ou d'un trapèze.
-Un polygône à 5 côté est dénommé pentagone.
+Un polygône à 5 côtés est dénommé pentagone.
 
 
 
