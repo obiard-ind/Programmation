@@ -174,4 +174,3 @@ else:
 **Rem** : on notera que l'on peut peut passer non seulement directement des valeurs comme argument d'une fonction; mais également toute variable (ici : `a`) qui contient une valeur.
 **Rem** : on peut utiliser la valeur de retour de notre fonction à tout endroit de notre code où une valeur de ce type (ici : un booléen), est attendue.
 
-## Passage par référence vs passage par valeur
