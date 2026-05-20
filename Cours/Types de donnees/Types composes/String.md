@@ -146,6 +146,10 @@ abcd[6:25:-2]  # vide... car on parcours à l'envers => start doit être > end !
 abcd[25:6:-2]  # 'r pn lj hf'  
 ```
 
+### Quelques fonctions sur les chaînes
+`.lower()` : convertit une chaîne en minuscules
+`.upper()` : convertit une chaîne en majuscules
+
 
 
 
