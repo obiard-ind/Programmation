@@ -237,7 +237,7 @@ for pays in pays_capitale.keys():
 
 *Parcours des valeurs du dictionnaire 'pays_capitale'*
 ```python
-for capitale in pays_capitale.keys():
+for capitale in pays_capitale.values():
     print(capitale)
 ```
 
